@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-   
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="Refresh" content="2; url=public/index.html" />
+  </head>
+  <body>
     <header>
-        <h1> Tabuada</h1>
+      <h1>Tabuada</h1>
     </header>
     <section>
-        <div>
-            <p>
-                Qual tabuada você deseja saber a tabuada? <br>
-                <input type="number" class="Form" id="num">
-            </p>
-            <p>
-                Até que número você quer? <br>
-                <input type="number" class="Form" id="end">
-            </p>
-            <p>
-                <input type="button" value="Calcular" id="botao" onclick="taboada()">
-            </p>
-        </div>
-        <div id="resposta">
-            Preencha os valores acima!
-        </div>
-
+      <div>
+        <p>
+          Qual tabuada você deseja saber a tabuada? <br />
+          <input type="number" class="Form" id="num" />
+        </p>
+        <p>
+          Até que número você quer? <br />
+          <input type="number" class="Form" id="end" />
+        </p>
+        <p>
+          <input
+            type="button"
+            value="Calcular"
+            id="botao"
+            onclick="taboada()"
+          />
+        </p>
+      </div>
+      <div id="resposta">Preencha os valores acima!</div>
     </section>
-    <script src="tabuada_script.js"> </script>
-   
-</body>
+    <script src="tabuada_script.js"></script>
+  </body>
 </html>
